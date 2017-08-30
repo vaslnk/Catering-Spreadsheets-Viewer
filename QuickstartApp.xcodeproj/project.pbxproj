@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508CF85124A186B7177511E6 /* Pods_QuickstartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F1507CC81F6DC44323668B /* Pods_QuickstartApp.framework */; };
 		F41F61F31F000787007CE2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F61F21F000787007CE2C1 /* AppDelegate.swift */; };
-		F41F61F51F000787007CE2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F61F41F000787007CE2C1 /* ViewController.swift */; };
-		F41F61F81F000787007CE2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41F61F61F000787007CE2C1 /* Main.storyboard */; };
 		F41F61FA1F000787007CE2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41F61F91F000787007CE2C1 /* Assets.xcassets */; };
 		F41F61FD1F000787007CE2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41F61FB1F000787007CE2C1 /* LaunchScreen.storyboard */; };
 		F41F62081F000787007CE2C1 /* QuickstartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F62071F000787007CE2C1 /* QuickstartAppTests.swift */; };
 		F41F62131F000787007CE2C1 /* QuickstartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F62121F000787007CE2C1 /* QuickstartAppUITests.swift */; };
+		F41F62211F00087B007CE2C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F41F62201F00087B007CE2C1 /* GoogleService-Info.plist */; };
+		F4285F7C1F0A3E6D0007422F /* NewFoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F7B1F0A3E6D0007422F /* NewFoodModel.swift */; };
+		F4285F7E1F0A6DB60007422F /* MockSheetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F7D1F0A6DB60007422F /* MockSheetService.swift */; };
+		F4285F7F1F0A789C0007422F /* MockSheetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F7D1F0A6DB60007422F /* MockSheetService.swift */; };
+		F4285F801F0A78A40007422F /* NewFoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F7B1F0A3E6D0007422F /* NewFoodModel.swift */; };
+		F4285F821F0A78F70007422F /* SheetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F811F0A78F70007422F /* SheetService.swift */; };
+		F4285F831F0A79140007422F /* SheetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F811F0A78F70007422F /* SheetService.swift */; };
+		F4285F851F0B82E00007422F /* UITableViewController+reloadRowsAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F841F0B82E00007422F /* UITableViewController+reloadRowsAt.swift */; };
+		F4285F871F0BF08D0007422F /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F861F0BF08D0007422F /* DayOfWeek.swift */; };
+		F4285F891F0BF3040007422F /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4285F861F0BF08D0007422F /* DayOfWeek.swift */; };
+		F46882B21F054AA6009F61D8 /* DateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46882B11F054AA6009F61D8 /* DateListTableViewController.swift */; };
+		F46882BA1F0692CB009F61D8 /* GoogleSheetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46882B91F0692CB009F61D8 /* GoogleSheetService.swift */; };
+		F4EB953F1F01349D00CA0A56 /* PersonSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB953E1F01349D00CA0A56 /* PersonSelectionViewController.swift */; };
+		F4EB95411F015DBF00CA0A56 /* MealsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB95401F015DBF00CA0A56 /* MealsListViewController.swift */; };
+		F4EB95451F0241E100CA0A56 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB95441F0241E100CA0A56 /* FlowController.swift */; };
+		F4EB954D1F024EF900CA0A56 /* GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB954C1F024EF900CA0A56 /* GoogleLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F41F62041F000787007CE2C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F41F61E71F000787007CE2C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F41F61EE1F000787007CE2C1;
-			remoteInfo = QuickstartApp;
-		};
 		F41F620F1F000787007CE2C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F41F61E71F000787007CE2C1 /* Project object */;
@@ -34,10 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98F1507CC81F6DC44323668B /* Pods_QuickstartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickstartApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C822D20716F27552A7A4B4A7 /* Pods-QuickstartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA751FBB4956DA11769150A7 /* Pods-QuickstartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F41F61EF1F000787007CE2C1 /* QuickstartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41F61F21F000787007CE2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F41F61F41F000787007CE2C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F41F61F71F000787007CE2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F41F61F91F000787007CE2C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41F61FC1F000787007CE2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F41F61FE1F000787007CE2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +56,18 @@
 		F41F620E1F000787007CE2C1 /* QuickstartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickstartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41F62121F000787007CE2C1 /* QuickstartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickstartAppUITests.swift; sourceTree = "<group>"; };
 		F41F62141F000787007CE2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41F62201F00087B007CE2C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4285F7B1F0A3E6D0007422F /* NewFoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFoodModel.swift; sourceTree = "<group>"; };
+		F4285F7D1F0A6DB60007422F /* MockSheetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSheetService.swift; sourceTree = "<group>"; };
+		F4285F811F0A78F70007422F /* SheetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetService.swift; sourceTree = "<group>"; };
+		F4285F841F0B82E00007422F /* UITableViewController+reloadRowsAt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewController+reloadRowsAt.swift"; sourceTree = "<group>"; };
+		F4285F861F0BF08D0007422F /* DayOfWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
+		F46882B11F054AA6009F61D8 /* DateListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateListTableViewController.swift; sourceTree = "<group>"; };
+		F46882B91F0692CB009F61D8 /* GoogleSheetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSheetService.swift; sourceTree = "<group>"; };
+		F4EB953E1F01349D00CA0A56 /* PersonSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSelectionViewController.swift; sourceTree = "<group>"; };
+		F4EB95401F015DBF00CA0A56 /* MealsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsListViewController.swift; sourceTree = "<group>"; };
+		F4EB95441F0241E100CA0A56 /* FlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		F4EB954C1F024EF900CA0A56 /* GoogleLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508CF85124A186B7177511E6 /* Pods_QuickstartApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70C0B3EEC754CEA70EAF7C6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA751FBB4956DA11769150A7 /* Pods-QuickstartApp.debug.xcconfig */,
+				C822D20716F27552A7A4B4A7 /* Pods-QuickstartApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A72BF61A85C60F33BCCF810E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F1507CC81F6DC44323668B /* Pods_QuickstartApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F41F61E61F000787007CE2C1 = {
 			isa = PBXGroup;
 			children = (
+				F41F62201F00087B007CE2C1 /* GoogleService-Info.plist */,
 				F41F61F11F000787007CE2C1 /* QuickstartApp */,
 				F41F62061F000787007CE2C1 /* QuickstartAppTests */,
 				F41F62111F000787007CE2C1 /* QuickstartAppUITests */,
 				F41F61F01F000787007CE2C1 /* Products */,
+				70C0B3EEC754CEA70EAF7C6F /* Pods */,
+				A72BF61A85C60F33BCCF810E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +139,18 @@
 		F41F61F11F000787007CE2C1 /* QuickstartApp */ = {
 			isa = PBXGroup;
 			children = (
+				F4EB95441F0241E100CA0A56 /* FlowController.swift */,
 				F41F61F21F000787007CE2C1 /* AppDelegate.swift */,
-				F41F61F41F000787007CE2C1 /* ViewController.swift */,
-				F41F61F61F000787007CE2C1 /* Main.storyboard */,
+				F4EB954C1F024EF900CA0A56 /* GoogleLogin.swift */,
+				F4285F7B1F0A3E6D0007422F /* NewFoodModel.swift */,
+				F4285F811F0A78F70007422F /* SheetService.swift */,
+				F46882B91F0692CB009F61D8 /* GoogleSheetService.swift */,
+				F4285F7D1F0A6DB60007422F /* MockSheetService.swift */,
+				F4EB953E1F01349D00CA0A56 /* PersonSelectionViewController.swift */,
+				F4EB95401F015DBF00CA0A56 /* MealsListViewController.swift */,
+				F46882B11F054AA6009F61D8 /* DateListTableViewController.swift */,
+				F4285F841F0B82E00007422F /* UITableViewController+reloadRowsAt.swift */,
+				F4285F861F0BF08D0007422F /* DayOfWeek.swift */,
 				F41F61F91F000787007CE2C1 /* Assets.xcassets */,
 				F41F61FB1F000787007CE2C1 /* LaunchScreen.storyboard */,
 				F41F61FE1F000787007CE2C1 /* Info.plist */,
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F41F62171F000787007CE2C1 /* Build configuration list for PBXNativeTarget "QuickstartApp" */;
 			buildPhases = (
+				E5ADE2F43063625A01D859B0 /* [CP] Check Pods Manifest.lock */,
 				F41F61EB1F000787007CE2C1 /* Sources */,
 				F41F61EC1F000787007CE2C1 /* Frameworks */,
 				F41F61ED1F000787007CE2C1 /* Resources */,
+				BFDA9495137D79B904118B18 /* [CP] Embed Pods Frameworks */,
+				BD4730E4C947853DB5E113BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,7 +210,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				F41F62051F000787007CE2C1 /* PBXTargetDependency */,
 			);
 			name = QuickstartAppTests;
 			productName = QuickstartAppTests;
@@ -193,10 +246,12 @@
 				TargetAttributes = {
 					F41F61EE1F000787007CE2C1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8RNY46S82;
 						ProvisioningStyle = Automatic;
 					};
 					F41F62021F000787007CE2C1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8RNY46S82;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F41F61EE1F000787007CE2C1;
 					};
@@ -233,8 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F41F61FD1F000787007CE2C1 /* LaunchScreen.storyboard in Resources */,
+				F41F62211F00087B007CE2C1 /* GoogleService-Info.plist in Resources */,
 				F41F61FA1F000787007CE2C1 /* Assets.xcassets in Resources */,
-				F41F61F81F000787007CE2C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +309,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD4730E4C947853DB5E113BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDA9495137D79B904118B18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickstartApp/Pods-QuickstartApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5ADE2F43063625A01D859B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F41F61EB1F000787007CE2C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41F61F51F000787007CE2C1 /* ViewController.swift in Sources */,
+				F4EB95411F015DBF00CA0A56 /* MealsListViewController.swift in Sources */,
+				F4285F821F0A78F70007422F /* SheetService.swift in Sources */,
 				F41F61F31F000787007CE2C1 /* AppDelegate.swift in Sources */,
+				F46882BA1F0692CB009F61D8 /* GoogleSheetService.swift in Sources */,
+				F4EB954D1F024EF900CA0A56 /* GoogleLogin.swift in Sources */,
+				F4285F7E1F0A6DB60007422F /* MockSheetService.swift in Sources */,
+				F4EB95451F0241E100CA0A56 /* FlowController.swift in Sources */,
+				F4285F851F0B82E00007422F /* UITableViewController+reloadRowsAt.swift in Sources */,
+				F4EB953F1F01349D00CA0A56 /* PersonSelectionViewController.swift in Sources */,
+				F4285F871F0BF08D0007422F /* DayOfWeek.swift in Sources */,
+				F4285F7C1F0A3E6D0007422F /* NewFoodModel.swift in Sources */,
+				F46882B21F054AA6009F61D8 /* DateListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4285F891F0BF3040007422F /* DayOfWeek.swift in Sources */,
+				F4285F801F0A78A40007422F /* NewFoodModel.swift in Sources */,
 				F41F62081F000787007CE2C1 /* QuickstartAppTests.swift in Sources */,
+				F4285F7F1F0A789C0007422F /* MockSheetService.swift in Sources */,
+				F4285F831F0A79140007422F /* SheetService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +400,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F41F62051F000787007CE2C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F41F61EE1F000787007CE2C1 /* QuickstartApp */;
-			targetProxy = F41F62041F000787007CE2C1 /* PBXContainerItemProxy */;
-		};
 		F41F62101F000787007CE2C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F41F61EE1F000787007CE2C1 /* QuickstartApp */;
@@ -296,14 +408,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F41F61F61F000787007CE2C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F41F61F71F000787007CE2C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F41F61FB1F000787007CE2C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,11 +516,14 @@
 		};
 		F41F62181F000787007CE2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA751FBB4956DA11769150A7 /* Pods-QuickstartApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8RNY46S82;
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
+				PRODUCT_BUNDLE_IDENTIFIER = vasylenko.FoodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,11 +531,14 @@
 		};
 		F41F62191F000787007CE2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C822D20716F27552A7A4B4A7 /* Pods-QuickstartApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8RNY46S82;
 				INFOPLIST_FILE = QuickstartApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartApp;
+				PRODUCT_BUNDLE_IDENTIFIER = vasylenko.FoodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,6 +549,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8RNY46S82;
 				INFOPLIST_FILE = QuickstartAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartAppTests;
@@ -453,6 +564,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8RNY46S82;
 				INFOPLIST_FILE = QuickstartAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.QuickstartAppTests;
@@ -507,6 +619,7 @@
 				F41F62191F000787007CE2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F41F621A1F000787007CE2C1 /* Build configuration list for PBXNativeTarget "QuickstartAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +628,7 @@
 				F41F621C1F000787007CE2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F41F621D1F000787007CE2C1 /* Build configuration list for PBXNativeTarget "QuickstartAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +637,7 @@
 				F41F621F1F000787007CE2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
